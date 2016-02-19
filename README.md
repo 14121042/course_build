@@ -55,10 +55,10 @@ cd ~/android/cm
 **初始化源碼目錄**
 
 
-repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
+repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
 
 
-**同步機型的源碼(這裏用cancro做例子)**
+**同步機型的源碼(這裏用angler做例子)**
 
 
 mkdir ~/android/cm/.repo/local_manifests
