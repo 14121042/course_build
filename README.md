@@ -55,7 +55,28 @@ cd ~/android/cm
 **初始化源碼目錄**
 
 
-repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
+repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+
+
+**同步機型的源碼(這裏用angler做例子)**
+
+
+mkdir ~/android/cm/.repo/local_manifests
+
+
+gedit ~/android/cm/.repo/local_manifests/roomservice.xml
+
+
+將這段內容複製進去roomservice.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="CyanogenMod/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="cm-13.0" />
+  <project name="AndroidUser00110001/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-13.0" />
+</manifest>
 
 
 **開始同步代碼**
