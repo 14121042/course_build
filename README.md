@@ -70,14 +70,14 @@ gedit ~/android/cm/.repo/local_manifests/roomservice.xml
 將這段內容複製進去roomservice.xml
 
 
-#<?xml version="1.0" encoding="UTF-8"?>
-#<!--Please do not manually edit this file-->
-#<manifest>
-#  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
-#  <project name="CyanogenMod/android_kernel_xiaomi_angler" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />
-#  <project name="CyanogenMod/android_device_xiaomi_angler" path="device/xiaomi/cancro" remote="github" revision="cm-12.1" />
-#  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1" />
-#</manifest>
+[<?xml version="1.0" encoding="UTF-8"?>]
+[<!--Please do not manually edit this file-->]
+[<manifest>]
+[  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />]
+[  <project name="CyanogenMod/android_kernel_xiaomi_angler" path="kernel/xiaomi/cancro" remote="github" revision="cm-12.1" />]
+[  <project name="CyanogenMod/android_device_xiaomi_angler" path="device/xiaomi/cancro" remote="github" revision="cm-12.1" />]
+[  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1" />]
+[</manifest>]
 
 
 **開始同步代碼**
